@@ -15,22 +15,14 @@
 </section>
 
 <footer id="footer" class="midnight-blue">
+
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-6-special">
         <?php show_footer();?>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6-special">
         <ul class="pull-right">
-          <?php 
-          wp_nav_menu( array(
-            'theme_location' => 'footer',
-            'container'  => false,
-            'menu_class' => '',
-            'items_wrap'=>'%3$s'
-            )
-          );
-          ?>
           <li>
             <a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a><!--#gototop-->
           </li>

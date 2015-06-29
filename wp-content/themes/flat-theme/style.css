@@ -278,15 +278,23 @@ div.aligncenter {
   display: none;
 }
 .navbar {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 0;
   border: none;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000;
 }
 .navbar .navbar-brand {
+  margin-right: auto;  
   font-size: 36px;
   line-height: 50px;
   color: #fff;
 }
 .navbar .navbar-main {
+  margin-left: auto;  
   margin-top: 20px;
   float: right;
 }
@@ -344,6 +352,7 @@ div.aligncenter {
   top: 0;
   margin-top: 0;
 }
+
 #mobile-menu .navbar-collapse {
   max-height: 100%;
 }
@@ -1686,9 +1695,31 @@ ul li.faq{
     margin-bottom: 30px;
 }
 
+#bottom ul {
+    padding-left: 0;
+}
+#bottom ul li {
+    list-style-type: none;
+}
+#bottom ul li:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #777;
+}
+
+#textwidget a {
+   color: #fff;
+}
+
 /*logo*/
 a.navbar-brand img{
     display: inline-block;
+    width: 200px;
+    height: 25px;
 }
 /*download btn*/
 #main-info {
@@ -1710,6 +1741,7 @@ background-color: #ECF0F1;
     border-top:0;
     box-shadow:none;
 }
+
 .navbar-inverse .navbar-nav li{
 
 }
